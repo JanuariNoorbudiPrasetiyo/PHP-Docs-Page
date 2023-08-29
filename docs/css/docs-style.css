@@ -1,0 +1,125 @@
+@font-face {
+    font-family: 'Kollektif';
+    src: url(/fonts/Kollektif.ttf);
+}
+
+@font-face {
+    font-family: 'Kollektif-Bold';
+    src: url(/fonts/Kollektif-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Kollektif-BoldItalic';
+    src: url(/fonts/Kollektif-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: 'Kollektif-Italic';
+    src: url(/fonts/Kollektif-Italic.ttf);
+}
+
+body {
+    font-family: 'Kollektif';
+    background-color: rgb(44, 44, 48);
+    color: #efefe8ff;
+    margin: 0;
+    /* height: 200rem; */
+}
+
+/* NAVIGATION BAR */
+
+#navbar {
+    position: fixed;
+    width: 100%;
+    /* background-color: #f1f4ffff; */
+    border-bottom: 1px solid gray;
+    /* border-top: 3px solid #0063b2ff; */
+    margin-top: 2rem;
+    padding-bottom: 1.6rem;
+}
+
+#navbar a {
+    text-decoration: none;
+}
+
+.logo {
+    display: inline-block;
+    /* position: relative; */
+    width: 3.5rem;
+    /* padding: 1rem; */
+    margin-left: 0.5rem;
+    /* margin-top: 2rem; */
+    /* padding-top: 3.5rem; */
+    /* padding-bottom: 2rem; */
+    transform: translateY(-2rem);
+}
+
+.elephant {
+    display: inline-block;
+    /* position: relative; */
+    width: 3.5rem;
+    /* padding: 1rem; */
+    margin-left: 3rem;
+    /* margin-top: 2rem; */
+    /* padding-top: 3rem; */
+    /* padding-bottom: 1rem; */
+    transform: translateY(-1.2rem);
+}
+
+.border {
+    border-left: 1px solid grey;
+    opacity: 50%;
+    margin-left: 12.5rem;
+    padding-bottom: 3rem;
+    margin-bottom: -5rem;
+    transform: translateY(-4.5rem);
+}
+
+.nav-option {
+    position: absolute;
+    margin-left: 14.2rem;
+    /* padding-bottom: 2rem; */
+    margin-top: -1.7rem;
+}
+
+#navbar .link-navbar {
+    display: inline-block;
+    /* position: absolute; */
+    /* margin-top: -2rem; */
+    /* display: inline-block; */
+    /* transform: translateY(2rem); */
+    /* transform: translateX(15rem); */
+    /* margin-top: -5rem; */
+    /* margin-left: 14rem; */
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: rgb(208, 208, 208);
+    margin-right: 0.3rem;
+    padding-bottom: 7px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+
+#navbar .link-navbar:hover {
+    border-bottom: 1px solid rgba(255, 255, 255, 50%);
+    color: #fff;
+}
+
+/* CONTAINER */
+
+.container {
+    height: 100%;
+    transform: translateY(5.3rem);
+    /* margin-top: 3rem; */
+    /* margin-left: 12rem; */
+}
+
+.container-border {
+    border-left: 1px solid grey;
+    margin-left: 12.5rem;
+}
+
+.sidebar p {
+    margin: 0;
+}
