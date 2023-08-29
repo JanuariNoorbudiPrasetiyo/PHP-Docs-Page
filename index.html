@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Technical Documentation</title>
     <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
 </head>
 
 <body>
@@ -25,16 +28,38 @@
         <div class="nav-option">
             <a href="https://www.php.net/downloads" class="link-navbar">Downloads</a>
             <a href="docs/docs.html" class="link-navbar">Dokumentasi</a>
+            <a href="https://www.php.net/releases/8.2/en.php" class="link-navbar">PHP 8.2</a>
         </div>
     </nav>
 
     <!-- MAIN PAGE -->
+
     <div class="container">
         <main id="main-doc">
             <img class="PHP-background" src="https://www.php.net/images/logos/php-logo-white.svg" alt="">
-            <p>Bahasa </p>
+            <p class="subtitle">
+                <span>Bahasa Scripting</span> paling populer di dunia dan cocok digunakan untuk pengembangan web. <br>
+                Cepat, Flexible, dan Pragmatis, PHP mendukung semuanya mulai dari blog anda hingga website terpopuler di
+                dunia.
+            </p>
+
+            <div class="border-container"></div>
         </main>
+
+        <div class="introduction">
+            <ul>
+                <li>
+                    <i data-feather="circle" class="dot-li"></i>
+                    <h1 class="header">Apa itu PHP?</h1>
+                    <p>Hypertext Preprocessor (PHP) adalah </p>
+                </li>
+            </ul>
+        </div>
     </div>
+
+    <script>
+        feather.replace();
+    </script>
 </body>
 
 </html>
